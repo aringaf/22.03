@@ -1,6 +1,6 @@
 function getTodayDate() {
-  const now = new Date(); // Получаем текущую дату и время
-  const timestamp = now.valueOf(); // Преобразуем в timestamp (миллисекунды с 1970)
+  const now = new Date();  
+  const timestamp = now.valueOf();  
   const today = new Date(timestamp);
   const year = today.getFullYear();
   const month = String(today.getMonth() + 1).padStart(2, '0'); 
